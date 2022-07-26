@@ -1,0 +1,62 @@
+.form-control {
+  background: var(--white-color);
+  box-shadow: none;
+  border: 2px solid var(--border-color);
+  color: var(--p-color);
+  margin-bottom: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  outline: none;
+}
+
+.form-control:focus,
+.form-control:hover {
+  background-color: var(--white-color);
+}
+
+.form-floating > label {
+  color: var(--p-color);
+}
+
+.form-floating > textarea.form-control {
+  height: 150px;
+}
+
+.btn-save {
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  border-radius: var(--border-radius-small);
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.btn-save:hover {
+    background-color: rgba(255, 140, 0, 0.8);
+}
+
+.loading {
+  background-color: var(--section-bg-color);
+  padding: 2rem 3rem;
+  border-radius: var(--border-radius-medium);
+  z-index: 30;
+}
+
+.loading-wrapper {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 10;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--p-color);
+  opacity: 40%;
+}
